@@ -17,6 +17,7 @@ app.post(config.apiPrefixUri + '/callback', (req, res) => {
     }
     
     let body = req.body.Command;
+    let pos = body.search('#-');
     let to = body.substring(0, body.search('#-'));
     let msg = body.substr(pos + 2);
 
