@@ -2,6 +2,8 @@
 
 Use Twilio's Programmable SMS to send a [Command](https://www.twilio.com/docs/api/wireless/rest-api/command) by Programmable Wireless to an [Ardunio](https://www.sparkfun.com/arduino_guide) device asking for it's current location then receive the location back by SMS.
 
+**Looking access to Twilio Programmable Wireless? Fill out the developer preview early access [form](https://www.twilio.com/console/form/wireless-access).**
+
 ## What is the Command resource?
 The Command resource enables you to exchange simple machine-to-machine messages with SMS-capable Devices. For example, you could use a Command to tell an idle Device to enable its data capabilities and establish an IP session.
 
@@ -16,11 +18,11 @@ To process a Command when it reaches your Device, you will interface with the mo
 Twilio’s Programmable SMS is used to send a text message to a device such as a smartphone. This is one of the most common tasks performed on the Twilio Platform. Twilio’s Programmable Wireless Command resource uses SMS as a transport layer to send mobile-to-mobile messages. This means you cannot use the Command resource to send a text message to a smartphone.
 
 ## Requirements
-* Programmable Wireless SIM Card
-* Programmable Phone Number
+* [Programmable Wireless SIM Card](https://www.twilio.com/console/wireless/sims/)
+* [Programmable Phone Number](https://www.twilio.com/phone-numbers)
 * [Arduino](https://www.sparkfun.com/arduino_guide) board with GPS and cellular module
 * [Arduino IDE](https://www.arduino.cc/en/main/software)
-* Server running Node.js
+* Server running [Node.js](https://nodejs.org/en/)
 	* [Heroku](http://heroku.com/)
 
 # Setup Instructions
@@ -64,3 +66,5 @@ Device | This is your unique identifier to your IoT device - [register your devi
 
 ## Resources
 * [Programmable Wireless Documentation](https://www.twilio.com/docs/api/wireless)
+* [Programmable Wireless Product Page](https://www.twilio.com/wireless)
+* [Programmable Wireless Pricing](https://www.twilio.com/wireless/pricing)
