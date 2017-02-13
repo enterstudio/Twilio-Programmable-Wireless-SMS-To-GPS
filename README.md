@@ -30,7 +30,7 @@ Twilio’s Programmable SMS is used to send a text message to a device such as a
 ### Server
 1. Clone or download this repository
 2. Open `config.js` with your favorite text editor
-3. Update all values with the {{ YOUR_X_HERE }} convention
+3. Update all values with the `{{ YOUR_X_HERE }}` convention
 4. See table below
 5. Upload code to server
 
