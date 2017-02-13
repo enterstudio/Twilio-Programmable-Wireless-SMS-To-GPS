@@ -43,7 +43,7 @@ authToken | Consider this your account password. It’s used to authenticate - [
 devicePhoneNumber | Used for bidirectional communication with device over SMS - [get one here.](https://www.twilio.com/console/phone-numbers/search)
 device | This is your unique identifier to your IoT device - [register your device here.](https://www.twilio.com/console/wireless/getting-started)
 
-#### Twilio Console
+### Twilio Console
 1. Navigate to the Programmable Wireless Devices [page](https://www.twilio.com/console/wireless/devices)
 2. Select your newly created device
 3. Enter the Callback URL that points to the code you uploaded to your server.
