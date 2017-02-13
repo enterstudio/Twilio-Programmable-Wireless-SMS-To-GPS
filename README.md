@@ -41,7 +41,7 @@ Key | Description
 accountSid | Consider this your account username. It’s used to authenticate - [get it here.](https://www.twilio.com/console/)
 authToken | Consider this your account password. It’s used to authenticate - [get it here.](https://www.twilio.com/console/)
 devicePhoneNumber | Used for bidirectional communication with device over SMS - [get one here.](https://www.twilio.com/console/phone-numbers/search)
-Device | This is your unique identifier to your IoT device - [register your device here.](https://www.twilio.com/console/wireless/getting-started)
+device | This is your unique identifier to your IoT device - [register your device here.](https://www.twilio.com/console/wireless/getting-started)
 
 #### Twilio Console
 1. Navigate to the Programmable Wireless Devices [page](https://www.twilio.com/console/wireless/devices)
