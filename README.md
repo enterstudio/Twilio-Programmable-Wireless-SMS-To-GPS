@@ -1,4 +1,4 @@
-# Bi-Directional SMS Delivery With Twilio Programmable Wireless
+# Bidirectional SMS Delivery With Twilio Programmable Wireless
 
 Use Twilio's Programmable SMS to send a [Command](https://www.twilio.com/docs/api/wireless/rest-api/command) by Programmable Wireless to an [Ardunio](https://www.sparkfun.com/arduino_guide) device asking for it's current location then receive the location back by SMS.
 
